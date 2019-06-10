@@ -1,0 +1,21 @@
+<br><br><br>
+<div class="container-progress" [ngClass]="{'show_progress': show_progress}">
+  <div class="progress-record">
+    <div class="progress-track"></div>
+    <div id="step1" class="progress-step-record is-active-record">
+      قدم اول
+    </div>
+    <div id="step2" class="progress-step-record">
+      قدم دوم
+
+
+    </div>
+    <div id="step3" class="progress-step-record">
+      قدم سوم
+    </div>
+    <div id="step4" class="progress-step-record">
+      قدم چهارم
+    </div>
+  </div>
+  <button (click)="onProgress()">click</button>
+</div>
